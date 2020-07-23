@@ -1,2 +1,2 @@
 # Portfolio
-Details of what I have done, and am doing.
+Describe my profession experience, skills, education and projects.
