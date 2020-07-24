@@ -26,7 +26,7 @@ height: 100vh;
 }
 
 footer{
-    background-image: image(../img/portfolio1.jpg);
+    background-image: image(img/portfolio1.jpg);
     background-color: gainsboro;
     margin-top: 5px;
     border-top: 1px solid black;
@@ -42,6 +42,14 @@ h1{
     background-color: beige;
 }
 */
+@font-face {
+  font-family: "aerotis";
+  
+  /*src: url("aerotis.eot");
+  src: url("aerotis.woff") format("woff"),*/
+  src: url("aerotis.otf") format("opentype");
+  /*url("CustomFont.svg#filename") format("svg");*/
+}
 
 div{
     display: block;
@@ -53,8 +61,11 @@ div{
     float: left;
 }
 
-
-
+.sign{
+    font-family: 'aerotis', Arial, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}
 .navtag {
     width: 50%;
     padding: 5px;
