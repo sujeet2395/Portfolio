@@ -226,3 +226,66 @@ div{
     font-size: 2em;
 }
 
+.skills-header {
+  font-size: 60px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin: 20px auto;
+}
+@media (max-width: 1380px) {
+  .skills-header {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .skills-header {
+    font-size: 30px;
+  }
+}
+
+.experience-heading{
+  font-size: 60px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin: 20px auto;
+}
+.experience-header{
+  width: 70%;
+  margin: 0px auto;
+}
+@media (max-width: 1380px) {
+  .experience-header{
+    width: 90%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 768px) {
+  .experience-header{
+    width: 100%;
+    margin: 0px auto;
+  }
+}
+
+
+.education-heading{
+  font-size: 60px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin: 20px auto;
+}
+.education-header{
+  width: 70%;
+  margin: 0px auto;
+}
+@media (max-width: 1380px) {
+  .education-header{
+    width: 90%;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 768px) {
+  .education-header{
+    width: 100%;
+    margin: 0px auto;
+  }
+}
